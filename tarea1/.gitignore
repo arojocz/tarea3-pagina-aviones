@@ -1,0 +1,30 @@
+# Backend - Python
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.venv/
+backend/env/
+
+# Node/npm
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Uploads (si usas server.js)
+uploads/
+data.json
+
+# General
+.env.local
+.env.*.local

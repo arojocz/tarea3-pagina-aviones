@@ -102,6 +102,35 @@
     </article>
   </template>
 
+  <!-- Chat Widget Container -->
+  <button id="chatFab" class="chat-fab" aria-label="Abrir chat con AeroChat">💬</button>
+  
+  <div id="chatWidget" class="chat-widget">
+    <div class="chat-header">
+      <div class="chat-header-content">
+        <h3 class="chat-title">AeroChat 🚀</h3>
+        <p class="chat-subtitle">Asistente de Aeronáutica</p>
+      </div>
+      <button id="chatToggle" class="chat-toggle-close" aria-label="Cerrar chat">✕</button>
+    </div>
+    
+    <div id="chatMessages" class="chat-messages"></div>
+    
+    <div id="chatTyping" class="chat-typing">
+      <span></span><span></span><span></span>
+    </div>
+    
+    <div class="chat-input-area">
+      <input 
+        id="chatInput" 
+        type="text" 
+        placeholder="Escribe tu pregunta sobre aviones..." 
+        aria-label="Campo de mensaje"
+      />
+      <button id="chatSend" class="chat-send-btn" aria-label="Enviar mensaje">Enviar</button>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
